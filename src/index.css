@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #ff7300;
+  --primary-glow: rgba(255, 115, 0, 0.35);
+  --bg: #0b1120;
+  --surface: #141c2e;
+  --surface-hover: #1b2740;
+  --border: rgba(255, 255, 255, 0.06);
+  --text: #e8ecf4;
+  --text-muted: #7b8aa6;
+  --x-color: #ff7300;
+  --o-color: #38bdf8;
+  --radius: 14px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family:
+    "Inter",
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
